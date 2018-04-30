@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <style type="text/css" media="screen">
+    #Google {
+                width: 20%;
+                height: 40%;
+               
+            }
+
+    span {
+            font-family: cursive;
+            font-size: 20pt;
+         }
+
+    a {
+        text-decoration-line: none;
+        color:blue;
+
+      }
+
+      p{
+          margin-left: 5%;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 10pt;
+      }
+
+    #next {
+                background-color: rgb(37, 37, 192);
+                color: white;
+                margin-inline-start: 27%;
+            }
+
+    body {
+            padding-left: 30%;
+            padding-top: 10%;
+        }
+
+    .footer {
+                padding-top: 16%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="acc">
+    <img id="Google" src="images/googleorig.png" alt="Google image">
+    
+    <p>
+    <br>
+        <span>Sign in </span>
+        <br>
+        Use your Google Account
+    </p>    
+
+    <form action="sub.php" method="GET">
+        <p>
+            <br>
+            <label for="Username">  </label>
+            <input type="text" name="Username" placeholder="Email or phone">
+            <br>
+            <a href="www.findemail.html">Forgot Email?</a>
+            <br>
+            <br>
+            Not your computer? Use Guest mode to sign in privately.
+            <a href="www.learnmore.html">Learn more</a>
+
+            <br>
+            <br>
+            <a href="www.createaccount.html">Create Account</a>
+            <input type="submit" value="NEXT" id="next">
+        </p>
+    </form>
+    </div>
+
+    <div class="footer">
+        <select name="language">
+            <option value="euk">English(Uk)</option>
+            <option value="eus">English(US)</option>
+            <option value="lug">Luganda</option>
+            <option value="luo">Luo</option>
+            <option value="fre">French</option>
+            <option value="sp">Spanish</option>
+            <option value="yb">Yoruba</option>
+            
+        </select>
+
+        <a id="help" href="www.help.html"> Help </a>
+
+        <a id="priv" href="www.privacy.html"> Privacy </a>
+
+        <a id="tm" href="www.terms.html"> Terms </a>
+
+    </div>
+
+</body>
+</html>
